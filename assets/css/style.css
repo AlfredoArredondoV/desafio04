@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.precio {
+    color: #28A745;
+    font-weight: 700;
+    font-size: large;
+}

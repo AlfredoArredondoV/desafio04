@@ -4,166 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta author="Alfredo Arredondo Vidal">
+    <title>Desafio 4 - Cuppon</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-    <!-- <header class="cabecera">
-        <h1 class="titulo">IGUANAS</h1>
-    </header> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <div class="container-fluid">
             <a class="navbar-brand" href="#">CUPPON</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Sobre Mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
     <section class="container">
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <!-- <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Free</h4>
-                    </div> -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Consola PS5">
                     <div class="card-body">
-                        <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Cama Boxspring">
-                        <h5 class="card-title">Combo Consola Sony PlayStation 5</h5>
-                        <p class="card-text">Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fa-light fa-location-dot">l</i>lala</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                        <p class="card-text">Combo Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote</p>
+                        <p class="text-muted mb-0">Sony</p>
+                        <p class="card-text text-muted"><i class="fa fa-location-dot"></i> Direccion 123, Comuna</p>
+                        <div class="row justify-content-end border-top">
+                            <div class="col-5 text-muted">$854.990</div>
+                            <div class="col-5 precio">$654.990</div>
                         </div>
-                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <!-- <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Free</h4>
-                    </div> -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/celular_huawei.jpg" class="card-img-top" alt="Foto Celular Huawei P50">
                     <div class="card-body">
-                        <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Cama Boxspring">
-                        <h5 class="card-title">Combo Consola Sony PlayStation 5</h5>
-                        <p class="card-text">Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fa-light fa-location-dot">l</i>lala</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                        <p class="card-text">Celular Huawei P50 Pro 256GB 6,6" Golden Black Liberado</p>
+                        <p class="text-muted mb-0">Huawei</p>
+                        <p class="card-text text-muted"><i class="fa fa-location-dot"></i> Direccion 123, Comuna</p>
+                        <div class="row justify-content-end border-top">
+                            <div class="col-5 text-muted">$599.990</div>
+                            <div class="col-5 precio">$499.990</div>
                         </div>
-                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <!-- <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Free</h4>
-                    </div> -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/lavadora.jpg" class="card-img-top" alt="Foto Lavadora Automatica Midea">
                     <div class="card-body">
-                        <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Cama Boxspring">
-                        <h5 class="card-title">Combo Consola Sony PlayStation 5</h5>
-                        <p class="card-text">Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fa-light fa-location-dot">l</i>lala</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                        <p class="card-text">Lavadora Automática Midea MLF-085BE08N 8,5 kg.</p>
+                        <p class="text-muted mb-0">Midea</p>
+                        <p class="card-text text-muted"><i class="fa fa-location-dot"></i> Direccion 123, Comuna</p>
+                        <div class="row justify-content-end border-top">
+                            <div class="col-5 text-muted">$280.200</div>
+                            <div class="col-5 precio">$156.990</div>
                         </div>
-                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <!-- <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Free</h4>
-                    </div> -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/notebook_msi.jpg" class="card-img-top" alt="Foto Notebook MSI Modelo GP65">
                     <div class="card-body">
-                        <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Cama Boxspring">
-                        <h5 class="card-title">Combo Consola Sony PlayStation 5</h5>
-                        <p class="card-text">Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fa-light fa-location-dot">l</i>lala</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                        <p class="card-text">Notebook Gamer MSI GP65 Leopard 10SEK Core i7-10750H 16GB 512GB SSD 15.6" NVIDIA RTX2060</p>
+                        <p class="text-muted mb-0">MSI</p>
+                        <p class="card-text text-muted"><i class="fa fa-location-dot"></i> Direccion 123, Comuna</p>
+                        <div class="row justify-content-end border-top">
+                            <div class="col-5 text-muted">$1.880.200</div>
+                            <div class="col-5 precio">$1.599.900</div>
                         </div>
-                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                    <!-- <div class="card-header py-3">
-                        <h4 class="my-0 fw-normal">Free</h4>
-                    </div> -->
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/cama_boxspring.jpg" class="card-img-top" alt="Foto Cama Box Spring base dividida de 2 plazas">
                     <div class="card-body">
-                        <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Cama Boxspring">
-                        <h5 class="card-title">Combo Consola Sony PlayStation 5</h5>
-                        <p class="card-text">Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><i class="fa-light fa-location-dot">l</i>lala</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                        <p class="card-text">Box Spring CIC Base Dividida 2 Plazas New Ortopedic + Respaldo + 2 Veladores New Torino</p>
+                        <p class="text-muted mb-0">CIC</p>
+                        <p class="card-text text-muted"><i class="fa fa-location-dot"></i> Direccion 123, Comuna</p>
+                        <div class="row justify-content-end border-top">
+                            <div class="col-5 text-muted">$500.000</div>
+                            <div class="col-5 precio">$445.990</div>
                         </div>
-                        <!-- <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button> -->
                     </div>
                 </div>
             </div>
-            <div class="card col" style="width: 18rem;">
-                <img src="assets/img/consola_ps4.jpg" class="card-img-top" alt="Foto Cama Boxspring">
-                <div class="card-body">
-                    <h5 class="card-title">Combo Consola Sony PlayStation 5</h5>
-                    <p class="card-text">Consola Sony PlayStation 5 + Control Inalámbrico DualSense + Control Multimedia PS5 Media Remote.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/sillon.jpg" class="card-img-top" alt="Foto Sofa seccional de Innovamuebles">
+                    <div class="card-body">
+                        <p class="card-text">Sofá Seccional Innovamuebles Australia Chaise Longue + Sofá 3 Cuerpos Negro</p>
+                        <p class="text-muted mb-0">Innovamuebles</p>
+                        <p class="card-text text-muted"><i class="fa fa-location-dot"></i> Direccion 123, Comuna</p>
+                        <div class="row justify-content-end border-top">
+                            <div class="col-5 text-muted">$250.200</div>
+                            <div class="col-5 precio">$199.990</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <form class="container text-center bg-success text-white">
-            <div class="mb-3 mt-3">
-                <label for="exampleInputEmail1" class="form-label">Recibe cupones en tu correo</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
-                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        <form class="bg-success text-light">
+            <div class="row justify-content-center">
+                <div class="mb-2 mt-2 col-sm-4 col-xs-4  ">
+                    <label class="form-label">Recibe cupones en tu correo</label>
+                    <input type="nombre" class="form-control" aria-describedby="emailHelp" placeholder="Nombre">
+                    <input type="email" class="form-control" placeholder="Correo Electronico">
+                    <button type="submit" class="btn btn-light">Enviar</button>
+                </div>
             </div>
-            <div class="mb-3 mt-3">
-                <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo Electronico">
-            </div>
-            <!-- <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div> -->
-            <button type="submit" class="btn btn-light mb-3 mt-3">Enviar</button>
         </form>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
